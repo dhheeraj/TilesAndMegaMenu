@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "home-tiles-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/homeTiles/HomeTilesWebPart.js",
+          "manifest": "./src/webparts/homeTiles/HomeTilesWebPart.manifest.json"
+        }
+      ]
+    },
+    "megamenu-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/megamenu/MegamenuWebPart.js",
+          "manifest": "./src/webparts/megamenu/MegamenuWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HomeTilesWebPartStrings": "lib/webparts/homeTiles/loc/{locale}.js",
+    "MegamenuWebPartStrings": "lib/webparts/megamenu/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,81 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.homeTiles {
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    padding: 20px;
+
+
+      .msCardsContainer{
+          @include ms-Grid-col;
+                @include ms-sm12;
+                @include ms-md4;
+                @include ms-lg3;
+                height: 291px;
+                margin: 10px;
+                padding-left: 0!important;
+                padding-right: 0!important;
+                border-radius: 6px;
+                box-shadow: 0px 4px 8px 0px #8c7f7f;
+          .msCards{
+                display:block;
+            .msCardTitle{   
+              cursor: pointer;           
+              padding: 15px;
+              color: white;
+              font-weight: 700;
+              background-color: #e23636;
+              display: block;
+              text-align: center;
+              word-break: break-word;
+              border-radius: 5px;
+            }
+            .msCardBody{
+              display: block;
+              padding: 6px 3px;
+              overflow-y: auto;
+              max-height: 228px;
+              .msCardItem{
+                cursor: pointer;
+                display: flex;
+                padding: 7px 9px;
+                border-bottom: 1px solid #f9f1f1;
+               i{
+                font-weight: 400;
+                padding-right: 10px;
+                color: black;
+                font-size: 21px;
+              }
+              span a{
+                text-decoration:none;
+              }span a:hover{
+                text-decoration:none;
+                 color :red;
+              }
+              }
+             
+            }
+          }
+          }
+     
+      
+    
+  
+  
+  }
+
+
+  
+
+
+  
+  
+
+}
