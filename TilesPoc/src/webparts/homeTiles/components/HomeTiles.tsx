@@ -14,73 +14,73 @@ export default class HomeTiles extends React.Component<IHomeTilesProps, any> {
     }
     componentDidMount() {
         const dummyVal = [{
-            "title": "Project Mandate Request",
+            "title": "Tile Sub Item 1",
             "url": "https://google.com",
-            "category": "Governance",
+            "category": "TitlesType1",
             "categoryUrl": "https://google.com",
             "type": "tool"
         },
         {
-            "title": "Project Mandate Request1",
+            "title": "Tile Sub Item 2",
             "url": "https://google.com",
-            "category": "Governance",
+            "category": "TitlesType1",
             "categoryUrl": "https://google.com",
             "type": "tool"
         },
         {
-            "title": "Project Mandate Request2",
+            "title": "Tile Sub Item 3",
             "url": "https://google.com",
-            "category": "Governance",
+            "category": "TitlesType1",
             "categoryUrl": "https://google.com",
             "type": "tool"
         },
 
         {
-            "title": "Agile Documents",
+            "title": "TileFolderItem",
             "url": "https://google.com",
-            "category": "Governance",
+            "category": "TitlesType1",
             "categoryUrl": "https://google.com",
             "type": "folder"
         },
         {
-            "title": "Overview Report.docx",
+            "title": "TileDocument.docx",
             "url": "https://google.com",
-            "category": "Governance",
+            "category": "TitlesType1",
             "categoryUrl": "https://google.com",
             "type": "file"
         },
         {
-            "title": "External.pdf",
+            "title": "TilePDF.pdf",
             "url": "https://google.com",
-            "category": "Governance Calender",
+            "category": "TitlesType2",
             "categoryUrl": "https://google.com",
             "type": "file"
         },
         {
-            "title": "Internal.pdf",
+            "title": "tilePDF2.pdf",
             "url": "https://google.com",
-            "category": "Governance Calender",
+            "category": "TitlesType2",
             "categoryUrl": "https://google.com",
             "type": "file"
         },
         {
-            "title": "HIgh level RACI.xlsx",
+            "title": "ExcelTile.xlsx",
             "url": "https://google.com",
-            "category": "RACIdsfsdsfdfsfdsfdsfdsfsdfsdfsfsf",
+            "category": "TitlesType2 with long name",
             "categoryUrl": "https://google.com",
             "type": "file"
         },
         {
-            "title": "HIgh level RACI.xlsx",
+            "title": "ExcelTile.xlsx",
             "url": "https://google.com",
-            "category": "RACIYY",
+            "category": "TitlesType5",
             "categoryUrl": "https://google.com",
             "type": "file"
         },
         {
-            "title": "HIgh level RACI.xlsx",
+            "title": "PPTtile.ppt",
             "url": "https://google.com",
-            "category": "RACIXX",
+            "category": "TitlesType4",
             "categoryUrl": "https://google.com",
             "type": "file"
         }
